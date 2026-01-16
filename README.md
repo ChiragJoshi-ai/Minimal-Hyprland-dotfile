@@ -1,51 +1,90 @@
-<h1 align="center">Hyprland · Minimal Setup</h1>
+<div align="center">
 
-<p align="center">
-  inspired by End-4 • simplified • minimal-first
-</p>
+# End4Dotfiles
 
-<br>
+**Minimal · Stable · Understandable Hyprland Setup**
 
-<h3>🌿 About</h3>
-<p>
-This setup is <b>inspired by End-4</b>
-</p>
+Built after learning the hard way by copying dotfiles without understanding them.  
+Everything here is meant to be readable, understandable, and easy to maintain.
 
-<p>
-The idea is to keep what works from End-4 and remove everything that feels
-<b>overly complex, noisy, or unnecessary</b> for minimal users.
-</p>
 
-<br>
+</div>
 
-<h3>🎯 Focus</h3>
-<ul>
-  <li>Simple and readable configs</li>
-  <li>Minimal file structure</li>
-  <li>Only useful commands & bindings</li>
-  <li>Clean, calm aesthetics</li>
-</ul>
+---
 
-<br>
+## ✦ Overview
 
-<h3>🚫 Not included</h3>
-<ul>
-  <li>Deep config nesting</li>
-  <li>Over-engineered scripts</li>
-  <li>Features you never touch</li>
-</ul>
+**End4Dotfiles** is my personal Hyprland configuration.
 
-<br>
+I used to copy other people’s dotfiles.  
+Upgrades broke my system. Things stopped working. I had no idea why.
 
-<h3>🛠 How to use</h3>
-<p>
-Copy what you like.<br>
-Delete what you don’t.<br>
-Nothing here is meant to be mandatory.
-</p>
+So I stopped copying — and started learning.
 
-<br>
+This setup exists to be:
+- stable across updates
+- simple in structure
+- easy to debug
+- fully understandable
 
-<p align="center">
-  made for people who like less 🖤
-</p>
+No magic. No hidden scripts. No surprises.
+
+---
+
+
+> No complex file structure — everything is kept simple and easy to understand.
+
+---
+
+## ✦ Core Tools
+
+Essentials used in this setup:
+
+- **hyprland**
+- **waybar**
+- **swaync**
+- **kitty**
+- **rofi**
+- **wf-recorder**
+- **grim / slurp**
+- **brightnessctl**
+- **nwg-look**
+- **network-manager-applet**
+- **bluez / blueman**
+- **alsa-utils**
+- **yay**
+
+---
+
+## ✦ Keybinds
+
+| Keybind | Action |
+|------|------|
+| `Super + Space` | Open terminal |
+| `Super + Q` | Kill active window |
+| `Super + Alt + C` | Open entire `~/.config` in VS Code |
+
+## ✦ Installation
+
+```bash
+git clone https://github.com/ChiragJoshi-ai/End4Dotfiles.git
+cd End4Dotfiles
+chmod +x install.sh
+./install.sh
+```
+
+
+---
+
+## ✦ Uninstallation
+
+```bash
+chmod +x uninstall.sh
+./uninstall.sh
+```
+
+<div align="center">
+
+_I would appreciate any help, ideas, or feedback to improve this setup._
+
+</div>
